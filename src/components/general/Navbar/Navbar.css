@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.navbar {
+    width: 80vw;
+    height: 12vh;
+    background-color: #FDF7F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+}
+
+.left > img {
+    height: 12vh;
+    object-fit: contain;
+}
+
+.right {
+    display: flex;
+    gap:2vw;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.navbar-icons {
+    width: 1vw;
+    object-fit: contain;
+}

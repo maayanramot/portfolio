@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.footer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+}
+
+.footer-up {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20vw;
+  align-items: center;
+}
+
+.footer-up > div {
+  display: flex;
+  gap: 2vw;
+}
+
+.footer-bottom {
+  display: flex;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.color1 {
+  height: 1.3vh;
+  width: 20vw;
+  background-color: #846d62;
+}
+.color2 {
+  height: 1.3vh;
+  width: 22vw;
+  background-color: #525050;
+}
+.color3 {
+  height: 1.3vh;
+  width: 16vw;
+  background-color: #a8a29c;
+}
+.color4 {
+  height: 1.3vh;
+  width: 25vw;
+  background-color: #ddc6a4;
+}
